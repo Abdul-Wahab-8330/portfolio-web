@@ -32,7 +32,7 @@ import news from "./news.png";
 import docs from "./docs.png";
 
 import bootstrap from "./company/bootstrap.png";
-import canva from './company/Canva.png';
+import canva from './company/canva.png';
 import express from './company/express.png';
 export {
   logo,
