@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo1 from "./logo1.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -35,7 +35,7 @@ import bootstrap from "./company/bootstrap.png";
 import canva from './company/canva.png';
 import express from './company/express.png';
 export {
-  logo,
+  logo1,
   backend,
   creator,
   mobile,

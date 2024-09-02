@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -14,11 +13,6 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     spotify,
     news,
     docs,
@@ -113,7 +107,7 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Fronrend Developer",
+        title: "Frontend Developer",
         // company_name: "Starbucks",
         company_name: "React/Next...",
         icon: reactjs,
