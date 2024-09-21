@@ -16,6 +16,7 @@ import {
     spotify,
     news,
     docs,
+    chatapp,
     threejs,
     bootstrap,
     canva,
@@ -238,17 +239,39 @@ const projects = [
         source_code_link: "https://github.com/Abdul-Wahab-8330/NewsMONKEY",
         live_link: "http://news-monkey-bice.vercel.app"
     },
+    // {
+    //     name: "Docs Animation",
+    //     description:
+    //         "A decent card animation made with framer motion that meets the professioal designing and animation requirements, user can drag and leave the card to have a feel like professional trending animations.",
+    //     tags: [
+    //         {
+    //             name: "framerMotion",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "tailwind",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: docs,
+    //     source_code_link: "https://github.com/Abdul-Wahab-8330/docs-animation",
+    //     live_link: "https://docs-animation.vercel.app/"
+    // },
     {
-        name: "Docs Animation",
+        name: "Chat Application",
         description:
-            "A decent card animation made with framer motion that meets the professioal designing and animation requirements, user can drag and leave the card to have a feel like professional trending animations.",
+            "A Realtime chat application, using chat engine, provides seamless chat experience to users, a community to join with admin's permission.",
         tags: [
             {
-                name: "framerMotion",
+                name: "chat-engine",
                 color: "blue-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "react",
                 color: "green-text-gradient",
             },
             {
@@ -256,10 +279,10 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: docs,
-        source_code_link: "https://github.com/Abdul-Wahab-8330/docs-animation",
-        live_link: "https://docs-animation.vercel.app/"
-    },
+        image: chatapp,
+        source_code_link: "https://github.com/Abdul-Wahab-8330/Chat-app",
+        live_link: "https://abdul-wahab-web-pf.vercel.app/"
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

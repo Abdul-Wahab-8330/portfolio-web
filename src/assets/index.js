@@ -32,6 +32,7 @@ import tesla from "./company/tesla.png";
 import spotify from "./spotify.png";
 import news from "./news.png";
 import docs from "./docs.png";
+import chatapp from "./chatapp.png";
 
 import bootstrap from "./company/bootstrap.png";
 import canva from './company/canva.png';
@@ -65,6 +66,7 @@ export {
   spotify,
   news,
   docs,
+  chatapp,
   bootstrap,
   canva,
   express,
