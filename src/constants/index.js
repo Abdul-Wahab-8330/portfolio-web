@@ -264,7 +264,7 @@ const projects = [
     {
         name: "Chat Application",
         description:
-            "A Realtime chat application, using chat engine, provides seamless chat experience to users, a community to join with admin's permission.",
+            "A Realtime chat application, using chat engine, provides seamless chat experience, join with admin's permission. Use Username: testuser, Password: 123456 to login.",
         tags: [
             {
                 name: "chat-engine",
@@ -281,7 +281,7 @@ const projects = [
         ],
         image: chatapp,
         source_code_link: "https://github.com/Abdul-Wahab-8330/Chat-app",
-        live_link: "https://abdul-wahab-web-pf.vercel.app/"
+        live_link: "https://chat-application-nu-red.vercel.app/"
     }
 ];
 
