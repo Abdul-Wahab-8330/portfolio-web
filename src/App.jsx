@@ -11,11 +11,11 @@ const App = () => {
           <Navbar/>
           <Hero/>
         </div>
+        <Works/>
         <About/>
         <Experience/>
         <div className="md:hidden flex"><Tech1/></div>
         <div className="md:flex hidden"><Tech/></div>
-        <Works/>
         {/* <Feedbacks/> */}
         <div className="relative z-0">
           <Contact/>
