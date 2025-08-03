@@ -9,7 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import computer1 from './computer1.png';
-
+import EMS from './EMS.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -71,5 +71,6 @@ export {
   canva,
   express,
   golive,
-  computer1
+  computer1,
+  EMS
 };

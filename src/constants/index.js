@@ -21,7 +21,8 @@ import {
     bootstrap,
     canva,
     express,
-    golive
+    golive,
+    EMS
 } from "../assets";
 
 export const navLinks = [
@@ -200,7 +201,30 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Spotify",
+        name: "Xtech - Employee Management System",
+        description:
+            "An Employee/Task management System with separate Admin Dashboard and employee dashboard support. This software can be used by any organisation. Admin can login as 'wahab123', password: '12345678' to create employees, assign tasks effectively with separate secure logins for employees as well.",
+        tags: [
+            {
+                name: "MernStack",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ShadCN",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JWT",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: EMS,
+        source_code_link: "https://github.com/Abdul-Wahab-8330/employee-management-system",
+        live_link: "https://xtech-employee-management-system.vercel.app"
+    },
+    {
+        
+        name: "Spotify - An Online Music Player",
         description:
             "A Web-based Music Player that allows users to listen latest music, providing a convenient environment and controls for all that music needs.",
         tags: [
@@ -222,7 +246,7 @@ const projects = [
         live_link: "https://abdul-wahab-8330.github.io/Spotify/"
     },
     {
-        name: "News Monkey",
+        name: "News Monkey - API Powered News Platform",
         description:
             "Web application that enables users to watch for job latest news with different categories along with a decent structure and categories for every kind of news.",
         tags: [
